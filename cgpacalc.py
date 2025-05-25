@@ -1,5 +1,12 @@
 import streamlit as st
 
+st.set_page_config(
+    page_title="GradeGauge",
+    page_icon="🎓",
+    layout="centered",
+    initial_sidebar_state="auto"
+)
+
 
 credits = [3, 2, 1.5, 1]
 grades = ['O', 'A+', 'A', 'B', 'C', 'D', 'E', 'F']
